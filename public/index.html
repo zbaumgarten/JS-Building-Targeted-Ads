@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Targeted Ads</title>
+    <script src="app.js" defer></script>
+    <style>
+        .advertisement{
+            width: 25em;
+            height: 25em;
+            border: 1px solid #000;
+        }
+        .advertisement p {
+            font-size: 2.5em;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 1em;
+            text-shadow: 1px 1px 2px #000;
+        }
+        .advertisement p span{
+            font-weight: 800;
+            text-transform: uppercase;
+            color: inherit;
+        }
+        .advertisement a{
+            color: #fff;
+        }
+        .ad1 {
+            background: url(assets/diner.jpg) center center;
+            background-size: cover;
+            backdrop-filter: blur(5px);
+            color: #fff
+        }
+        .ad1 p{
+            background: rgba(0,0,0,0.6);
+        }
+        .ad2 {
+            background: url(assets/coffee.jpg) center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="advertisement ad1">
+        <small>Photo by <a href="https://unsplash.com/@spencerdavis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Spencer Davis</a> on <a href="https://unsplash.com/s/photos/diner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small>
+  
+    </div>
+    <div class="advertisement ad2">
+        <small>Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/s/photos/coffee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </small>
+    </div>
+</body>
+</html>
