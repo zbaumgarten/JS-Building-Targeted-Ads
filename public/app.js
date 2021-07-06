@@ -1,10 +1,10 @@
 // get user's data
 // get user's coordinates
 async function getCoords(){
-	const pos = await new Promise((resolve, reject) => {
+	pos = await new Promise((resolve, reject) => {
 		navigator.geolocation.getCurrentPosition(resolve, reject)
 	})
-	return [pos.coords.latitude, pos.coords.longitude]
+    return [pos.coords.latitude, pos.coords.longitude]
 }
 
 // get user's time
@@ -17,7 +17,7 @@ function userTime(){
 // check time of day
 function getMealTime(){
     const tod = userTime()
-    return tod > 20 ? 'latenight snack' : tod > 16 ? 'dinner' : tod > 11 ? 'lunch' : 'breakfast'
+    return tod > 20 ? 'late-night snack' : tod > 16 ? 'dinner' : tod > 11 ? 'lunch' : 'breakfast'
 }
 
 // build ads
