@@ -1,5 +1,5 @@
 # Creating Targeted Ads
 
-This is an activity for FSWD Lesson 5.7.8- User Data.
+This is an activity for SDWD Lesson 5.7.6- User Data.
 
 Please refer to the Activity Guide in Canvas for directions.
